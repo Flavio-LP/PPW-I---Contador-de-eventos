@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='pt_bt'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Css/CssSheet.css" media="screen" />
+    <link rel="icon" alt="Imagem de um contador/medidor." href="Imagens/ícone.png" type="image" />
+    <meta name="author" content="Flávio Leandro Pirola" />
+    <meta name="description" content="Um site contador de eventos, com inserção de nome,data e hora." />
+    <meta name="keywords" content="contador de eventos,nomes,datas,horas" />
+    <title>Contador de Eventos</title>
+</head>
+
+<body>
+
+    <section id="corpo">
+        <form id="form">
+            <header id="cabeçalho">
+                <h1>Contador de Eventos</h1>
+                <h2 id="cont">Você possui 0 Evento(s) na sua lista.</h2>
+            </header>
+            <div id=input_info>
+                <input type="text" id="nome" placeholder="Nome do evento" required>
+                <input type="date" id="data" required>
+                <input type="time" id="hora" required>
+                <button type="submit" id="btn_enviar">Enviar</button>
+            </div>
+            <div id="deletar">
+                <button type="button" id="btn_deletar">Deletar todos os eventos</button>
+            </div>
+            <div id="lista_evento">
+                <a id="le">Lista de Eventos</a>
+            </div>
+        </form>
+        <div id="lista">
+            <ul id="lista">
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p>
+            <a class="rodape">Desenvolvido por Flávio Leandro Pirola</a>
+        </p>
+    </footer>
+    <script type="text/javascript" src="Script/Script.js"></script>
+</body>
+
+</html>

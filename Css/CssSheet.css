@@ -1,0 +1,518 @@
+body{
+    display:flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #1E90FF, #4682B4);
+}
+#cabeçalho
+{
+    position:absolute;
+    background-color: #6495ED;
+    border-color: #4169E1;
+    width:100%;
+    top:0;
+    right:0%;
+    flex-wrap: nowrap;
+    
+}
+h1
+{
+    position:relative;
+    color:white;
+    left:15%;
+    width:20%;
+}
+h2
+{
+    position:absolute;
+    color:white;
+    left:55%;
+    top:0;
+    animation: mostrar 3s;
+}
+
+li
+{
+    color:#ffff;
+}
+    
+
+@keyframes mostrar
+{
+    0% {opacity: 0};
+    100% {opacity:1};
+}
+#input_info
+{
+    position:absolute;
+    display:flex;
+    flex-wrap: wrap;
+    top:20%;
+    left:30%;
+}
+input:valid
+{
+    background-color: lightgreen;
+    transition: 1s;
+}
+#deletar
+{
+    position:absolute;
+    display:flex;
+    flex-wrap: wrap;
+    top:30%;
+    left:43%;
+}
+#lista_evento
+{
+    position:absolute;
+    top:40%;
+    color:white;
+    left:43%;
+    font-size: 1.5rem;
+}
+#le
+{
+    position:relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;;
+}
+#nome
+{
+    margin:3px;
+}
+#data
+{
+    margin:3px;
+}
+#hora
+{
+    margin:3px;
+}
+#btn_enviar
+{
+    margin:3px;
+    
+}
+#btn_deletar
+{
+    margin:3px;
+}
+button:hover{
+    background-color: #1E90FF	;
+    border-radius: 1px;
+    cursor:pointer;
+    
+}
+#lista
+{
+    position:absolute;
+    top:30%;
+    left:27%;
+    margin:10%;
+
+}
+footer
+{
+    position: fixed;
+    bottom:0;
+    right:0%;
+    padding:0.002%;
+    color:white;
+    background-color:#6495ED;
+    border-color: #4169E1;
+    width:100%;
+}
+.rodape
+{
+    position:relative;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    left:37%;
+}
+@media screen and (max-width:1030px)
+{
+#lista
+{
+    position:absolute;
+    top:34%;
+    left:27%;
+    margin:10%;
+}
+    
+}
+@media screen and (max-width:800px)
+{
+    body{
+        display:flex;
+        flex-wrap: wrap;
+        background-image: linear-gradient(to right, #1E90FF, #4682B4);
+    }
+    #cabeçalho
+    {
+        position:absolute;
+        background-color: #6495ED;
+        border-color: #4169E1;
+        width:100%;
+        top:0;
+        right:0%;
+        flex-wrap: nowrap;
+    }
+    h1
+    {
+        position:relative;
+        color:white;
+        left:15%;
+        width:20%;
+    }
+    h2
+    {
+        position:absolute;
+        color:white;
+        left:55%;
+        top:0;
+        animation: mostrar 3s;
+    }
+    
+    li
+    {
+        color:#ffff;
+    }
+        
+    
+    @keyframes mostrar
+    {
+        0% {opacity: 0};
+        100% {opacity:1};
+    }
+    #input_info
+    {
+        position:absolute;
+        display:flex;
+        flex-wrap: wrap;
+        top:20%;
+        left:30%;
+    }
+    #deletar
+    {
+        position:absolute;
+        display:flex;
+        flex-wrap: wrap;
+        top:30%;
+        left:50%;
+    }
+   
+    #lista_evento
+    {
+        position:absolute;
+        top:40%;
+        color:white;
+        left:43%;
+        font-size: 1.5rem;
+    }
+    #le
+    {
+        position:relative;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;;
+    }
+    #nome
+    {
+        margin:3px;
+    }
+    #data
+    {
+        margin:3px;
+    }
+    #hora
+    {
+        margin:3px;
+    }
+    #btn_enviar
+    {
+        margin:3px;
+        
+    }
+    button:hover{
+        background-color: #1E90FF	;
+    }
+    #lista
+    {
+        position:absolute;
+        top:38%;
+        left:27%;
+        margin:10%;
+    }
+    footer
+    {
+        position: fixed;
+        bottom:0;
+        right:0%;
+        padding:0.002%;
+        color:white;
+        background-color:#6495ED;
+        border-color: #4169E1;
+        width:100%;
+    }
+    .rodape
+    {
+        position:relative;
+        font-size: large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        left:30%;
+    }
+}
+@media screen and (max-width:600px)
+{
+    body{
+        display:flex;
+        flex-wrap: wrap;
+        background-image: linear-gradient(to right, #1E90FF, #4682B4);
+    }
+    #cabeçalho
+    {
+        position:absolute;
+        background-color: #6495ED;
+        border-color: #4169E1;
+        width:100%;
+        top:0;
+        right:0%;
+        flex-wrap: nowrap;
+    }
+    h1
+    {
+        position:relative;
+        color:white;
+        left:15%;
+        width:20%;
+    }
+    h2
+    {
+        position:absolute;
+        color:white;
+        left:55%;
+        top:0;
+        animation: mostrar 3s;
+    }
+    
+    li
+    {
+        color:#ffff;
+    }
+        
+    
+    @keyframes mostrar
+    {
+        0% {opacity: 0};
+        100% {opacity:1};
+    }
+    #input_info
+    {
+        position:absolute;
+        display:flex;
+        flex-wrap: wrap;
+        top:23%;
+        left:30%;
+    }
+    #deletar
+    {
+        position:absolute;
+        display:flex;
+        flex-wrap: wrap;
+        top:35%;
+        left:30%;
+    }
+    #lista_evento
+    {
+        position:absolute;
+        top:45%;
+        color:white;
+        left:38%;
+        font-size: 1.5rem;
+    }
+    #le
+    {
+        position:relative;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;;
+    }
+    #nome
+    {
+        margin:3px;
+    }
+    #data
+    {
+        margin:3px;
+    }
+    #hora
+    {
+        margin:3px;
+    }
+    #btn_enviar
+    {
+        margin:3px;
+        
+    }
+    #btn_deletar
+    {
+        margin:3px;
+    }
+    button:hover{
+        background-color: #1E90FF	;
+    
+    }
+    #lista
+    {
+        position:absolute;
+        top:45%;
+        left:20%;
+        margin:20%;
+    }
+    footer
+    {
+        position: fixed;
+        bottom:0;
+        right:0%;
+        padding:0.002%;
+        color:white;
+        background-color:#6495ED;
+        border-color: #4169E1;
+        width:100%;
+    }
+    .rodape
+    {
+        position:relative;
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        left:20%;
+    }
+}
+@media screen and (max-width:400px)
+{
+    body{
+        display:flex;
+        flex-wrap: wrap;
+        background-image: linear-gradient(to right, #1E90FF, #4682B4);
+    }
+    #cabeçalho
+    {
+        position:absolute;
+        background-color: #6495ED;
+        border-color: #4169E1;
+        width:100%;
+        top:0;
+        right:0%;
+        flex-wrap: nowrap;
+    }
+    h1
+    {
+        position:relative;
+        color:white;
+        left:15%;
+        width:20%;
+    }
+    h2
+    {
+        position:absolute;
+        color:white;
+        left:55%;
+        top:0;
+        animation: mostrar 3s;
+    }
+    
+    li
+    {
+        color:#ffff;
+    }
+        
+    
+    @keyframes mostrar
+    {
+        0% {opacity: 0};
+        100% {opacity:1};
+    }
+    #input_info
+    {
+        position:absolute;
+        display:flex;
+        flex-wrap: wrap;
+        top:23%;
+        left:30%;
+    }
+    #deletar
+    {
+        position:absolute;
+        display:flex;
+        flex-wrap: wrap;
+        top:38%;
+        left:30%;
+    }
+    #deletar
+    {
+        margin:3px
+    }
+    #btn_deletar_pos
+    {
+        margin:3px;
+    }
+    #lista_evento
+    {
+        position:absolute;
+        top:52%;
+        color:white;
+        left:38%;
+        font-size: 1rem;
+    }
+    #le
+    {
+        position:relative;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;;
+    }
+    #nome
+    {
+        margin:3px;
+    }
+    #data
+    {
+        margin:3px;
+    }
+    #hora
+    {
+        margin:3px;
+    }
+    #btn_enviar
+    {
+        margin:3px;
+        
+    }
+    #btn_deletar
+    {
+        margin:3px;
+    }
+    button:hover{
+        background-color: #1E90FF	;
+    
+    }
+    #lista
+    {
+        position:absolute;
+        top:55%;
+        left:20%;
+        margin:20%;
+    }
+    footer
+    {
+        position: fixed;
+        bottom:0;
+        right:0%;
+        padding:0.002%;
+        color:white;
+        background-color:#6495ED;
+        border-color: #4169E1;
+        width:100%;
+    }
+    .rodape
+    {
+        position:relative;
+        font-size: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        left:25%;
+    }
+
+}
